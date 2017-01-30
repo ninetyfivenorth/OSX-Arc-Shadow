@@ -26,7 +26,7 @@ Arch Linux users can install from the [AUR package](https://aur.archlinux.org/pa
 
   * `Antergos` (Gnome)
   * `Arch`
-  * `Budgie` (Fedora)
+  * `Budgie`
   * `Cinnamon` (Updated version)
   * `Elementary OS`
   * `Fedora` (Gnome)
