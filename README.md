@@ -31,7 +31,7 @@ Arch Linux users can install from the [AUR package](https://aur.archlinux.org/pa
   * `Elementary OS`
   * `Fedora` (Gnome)
   * `Manjaro`
-  * `Mate` (3.14 0r later)
+  * `Mate` (3.14 or later)
   * `Unity` (7.4 or later)
   * `Xfce`
   
