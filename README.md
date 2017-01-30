@@ -35,17 +35,17 @@ Arch Linux users can install from the [AUR package](https://aur.archlinux.org/pa
   * `Unity` (7.4 or later)
   * `Xfce`
   
-  ## Supported GTK version
+  ### Supported GTK version
   * `GTK 3.14` 
   * `GTK 3.16`
   * `GTK 3.18` 
   * `GTK 3.20`
   * `GTK 3.22`
   
-  ## Supported OS version
-  14.04 LTS
-  16.04 LTS
-  16.10
+  ### Supported OS version
+ * `14.04 LTS` 
+ * `16.04 LTS`
+ * `16.10`
   
 --
 
