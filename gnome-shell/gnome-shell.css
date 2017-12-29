@@ -7,8 +7,8 @@
   transition-duration: 0.2s; }
 
 stage {
-    font-family: sfns display, product sans, helvetica, open sans, source sans pro, segoe ui, ubuntu, nokia pure text, lucida grande, cantarell, sans-serif;
-    font-size: 10.5pt;
+    font-family: Liberation Sans, Droid Sans,Freesans, Sans-Serif;
+    font-size: 11pt;
     color: #333;}
 
 /***********
@@ -839,7 +839,7 @@ font-size: 0; }
 .weather-header,
 .message-list-section-title,
 .events-section-title {
-  color: rgba(211, 218, 227, 0.4);
+  color: #CFD8DC; 
   font-weight: bold; }
 
 .world-clocks-button:active .world-clocks-header,
@@ -850,7 +850,9 @@ font-size: 0; }
   spacing-rows: 0.4em; }
 
 .weather-box {
-  spacing: 0.4em; }
+  spacing: 0.4em;
+  background-color: transparent;
+  color: #45b1ea; }
 
 .calendar-month-label {
   color: #45b1ea;
@@ -936,7 +938,8 @@ font-size: 0; }
 
 .calendar-day-with-events {
   font-weight: bold;
-  background-image: url("common-assets/misc/calendar-today.svg"); }
+  text-decoration: underline; 
+  color: #45b1ea;}
 
 .calendar-today.calendar-day-with-events {
   color: #ffffff; }
@@ -974,7 +977,22 @@ color: #383C4A; }
     color: rgba(211, 218, 227, 0.45); }
   .message-list-clear-button.button {
     margin: 1.5em 1.5em 0;
-    padding: 4px 12px; }
+    padding: 4px 12px; 
+    color: #CFD8DC; 
+    background-color: transparent;}
+
+.message-list-clear-button.button:hover, 
+.message-list-clear-button.button:focus { 
+    color: #45b1ea; }
+
+.message-list-clear-button.button:insensitive { 
+   border-color: transparent; 
+   color: rgba(207, 216, 220, 0.3); 
+   background-color: transparent; 
+   box-shadow: 0 0 transparent; 
+   text-shadow: none; 
+   icon-shadow: none; }
+
   .message-list-section-close > StIcon {
     icon-size: 18px;
     border-radius: 0px;
